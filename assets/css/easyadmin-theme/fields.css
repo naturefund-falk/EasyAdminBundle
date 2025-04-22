@@ -138,10 +138,10 @@
   /* hides the default collapse marker */
   display: none;
 }
-.form-group.field-collection .accordion-button i {
+.form-group.field-collection .accordion-button .icon {
   transition: transform .2s ease-in-out;
 }
-.form-group.field-collection .accordion-button:not(.collapsed) i {
+.form-group.field-collection .accordion-button:not(.collapsed) .icon {
   transform: rotate(90deg);
 }
 .form-group.field-collection .accordion-button .form-collection-item-collapse-marker {
